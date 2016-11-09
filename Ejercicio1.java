@@ -1,106 +1,105 @@
-//Esta es la importación del Scanner (Este sirve para almacenar el valor que el cliente esta ingresando
+//Esta es la importaciÃ³n del Scanner (Este sirve para almacenar el valor que el cliente esta ingresando
 import java.util.Scanner;
 public class Ejercicio1 {
 public static void main(String[] args) {
 //Esto sirve para almacenar cualquier valor que ingrese el usuario
 Scanner pro = new Scanner(System.in);
-//Esta es la declaración de las variables
+//Esta es la declaraciÃ³n de las variables
 int op, a;
 //Es el Vector
-int [] num=new int [20];
-//La estructura del Menú
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+double [] num=new double [15];
+//La estructura del MenÃº
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 do{
-//Este es una condición para la opción: Suma 
+//Este es una condiciÃ³n para la opciÃ³n: Suma 
 if(op == 1){
 System.out.println(" ");
-System.out.println("Opción: Suma de dos números");
-System.out.println("Ingrese el primer número:");
-num[1]= pro.nextInt();
-System.out.println("Ingrese el segundo número:");
-num[2]= pro.nextInt();
+System.out.println("OpciÃ³n: Suma de dos nÃºmeros");
+System.out.println("Ingrese el primer nÃºmero:");
+num[1]= pro.nextDouble();
+System.out.println("Ingrese el segundo nÃºmero:");
+num[2]= pro.nextDouble();
 num[3]= num[1]+num[2];
 System.out.println("El resultado es: "+num[3]);
-System.out.println("Precione una tecla para mostar el Menú Principal.");
 
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
-//Este es una condición para la opción: Resta
+//Este es una condiciÃ³n para la opciÃ³n: Resta
 if(op == 2){
 System.out.println(" ");
-System.out.println("Opción: Resta de dos números");
-System.out.println("Ingrese el primer número:");
-num[4]= pro.nextInt();
-System.out.println("Ingrese el segundo número:");
-num[5]= pro.nextInt();
+System.out.println("OpciÃ³n: Resta de dos nÃºmeros");
+System.out.println("Ingrese el primer nÃºmero:");
+num[4]= pro.nextDouble();
+System.out.println("Ingrese el segundo nÃºmero:");
+num[5]= pro.nextDouble();
 num[6]= num[4]-num[5];
 System.out.println("El resultado es: "+num[6]);
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
-//Este es una condición para la opción: Multiplicación
+//Este es una condiciÃ³n para la opciÃ³n: MultiplicaciÃ³n
 if(op == 3){
 System.out.println(" ");
-System.out.println("Opción: Multiplicación de dos números");
-System.out.println("Ingrese el primer número:");
-num[7]= pro.nextInt();
-System.out.println("Ingrese el segundo número:");
-num[8]= pro.nextInt();
+System.out.println("OpciÃ³n: MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("Ingrese el primer nÃºmero:");
+num[7]= pro.nextDouble();
+System.out.println("Ingrese el segundo nÃºmero:");
+num[8]= pro.nextDouble();
 num[9]= num[7]*num[8];
 System.out.println("El resultado es: "+num[9]);
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
-//Este es una condición para la opción: División 
+//Este es una condiciÃ³n para la opciÃ³n: DivisiÃ³n 
 if(op == 4){
 System.out.println(" ");
-System.out.println("Opción: División de dos números");
-System.out.println("Ingrese el primer número:");
-num[10]= pro.nextInt();
-System.out.println("Ingrese el segundo número:");
-num[11]= pro.nextInt();
+System.out.println("OpciÃ³n: DivisiÃ³n de dos nÃºmeros");
+System.out.println("Ingrese el primer nÃºmero:");
+num[10]= pro.nextDouble();
+System.out.println("Ingrese el segundo nÃºmero:");
+num[11]= pro.nextDouble();
 //Este IF sirve para que nos marque error al momento de que el usuario quiera dividir entre 0
 if (num[11]==0){
-    System.out.println("Error, División entre 0 no es permitida.");
+    System.out.println("Error, DivisiÃ³n entre 0 no es permitida.");
 }
-//Este IF sirve para imprimir el valor de la división cuando el divisor es distinto de 0
+//Este IF sirve para imprimir el valor de la divisiÃ³n cuando el divisor es distinto de 0
 if(num[11]<0){
 num[12]=num[10]/num[11];
 System.out.println("El resultado es: "+num[12]);
@@ -110,102 +109,95 @@ num[12]=num[10]/num[11];
 System.out.println("El resultado es: "+num[12]);
 }
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
-//Esta condición es para la opción ver bitácora
+//Esta condiciÃ³n es para la opciÃ³n ver bitÃ¡cora
 if(op == 5){
 System.out.println(" ");
-System.out.println("Opción: Ver Bitácora");
+System.out.println("OpciÃ³n: Ver BitÃ¡cora");
 System.out.println(num[1]+"+"+num[2]+"="+num[3]);
 System.out.println(num[4]+"-"+num[5]+"="+num[6]);
 System.out.println(num[7]+"*"+num[8]+"="+num[9]);
 System.out.println(num[10]+"/"+num[11]+"="+num[12]);
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
-//Esta condición es para borrar la Bitácora
+//Esta condiciÃ³n es para borrar la BitÃ¡cora
 if(op == 6){
 System.out.println(" ");
-System.out.println("Opción: Borrar Bitácora");
-System.out.println("¿Esta seguro(a) que desea borrar la Bitácora?");
-System.out.println("Ingrese '1'(Si) para continuar o '2'(No) para volver al Menú principal");
+System.out.println("OpciÃ³n: Borrar BitÃ¡cora");
+System.out.println("Â¿Esta seguro(a) que desea borrar la BitÃ¡cora?");
+System.out.println("Ingrese '1'(Si) para continuar o '2'(No) para volver al MenÃº principal");
 a=pro.nextInt();
 if (a == 1){
-    num[1]=0;
-    num[2]=0;
-    num[3]=0;
-    num[4]=0;
-    num[5]=0;
-    num[6]=0;
-    num[7]=0;
-    num[8]=0;
-    num[9]=0;
-    num[10]=0;
-    num[11]=0;
-    num[12]=0;
-System.out.println("Usted selecciono la opción '1'...La Bitácora fue borrada exitosamete.");    
+    for(int x=0; x<=12; x++){
+    num[x]=0;
+} 
+System.out.println("Usted selecciono la opciÃ³n '1'");
+System.out.println("La BitÃ¡cora fue borrada exitosamete.");    
 System.out.println(" ");    
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
-op = pro.nextInt(); 
+System.out.println("Seleccione una opciÃ³n: ");
+op = pro.nextInt();
 }
 if(a==2){
 System.out.println(" ");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();    
 }
 }
 if(op == 7){
-System.out.println("Adios");
+System.out.println("Adios, gracias por usar mi programa.");
 break;
 }
 if(op > 7 ){
 System.out.println(" ");
-System.out.println("Esta no es uno de los números mostrados para las opciones, por favor escriba una opción válida");
-System.out.println("..Menú..");
-System.out.println("1. Suma de dos números");
-System.out.println("2. Resta de dos números");
-System.out.println("3. Multiplicación de dos números");
-System.out.println("4. División de dos números");
-System.out.println("5. Ver Bitácora");
-System.out.println("6. Borrar Bitácora");
+System.out.println("Esta no es uno de los nÃºmeros mostrados para las opciones, por favor escriba una opciÃ³n vÃ¡lida");
+System.out.println("............MenÃº............");
+System.out.println("1. Suma de dos nÃºmeros");
+System.out.println("2. Resta de dos nÃºmeros");
+System.out.println("3. MultiplicaciÃ³n de dos nÃºmeros");
+System.out.println("4. DivisiÃ³n de dos nÃºmeros");
+System.out.println("5. Ver BitÃ¡cora");
+System.out.println("6. Borrar BitÃ¡cora");
 System.out.println("7. Salir");
-System.out.println("Seleccione una opción: ");
+System.out.println("Seleccione una opciÃ³n: ");
 op = pro.nextInt();
 }
 }
 while(op <= 7);
 }}
+
